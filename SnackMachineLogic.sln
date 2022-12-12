@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnackMachineLogic", "SnackMachine.Logic\SnackMachineLogic.csproj", "{AF8A6D06-E1DF-4112-9CEA-4195F54CA89C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnackMachine.Test", "SnackMachine.Test\SnackMachine.Test.csproj", "{CC8D58EE-4D1B-4846-97CD-6B06702ACED7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnackMachine.Test", "SnackMachine.Test\SnackMachine.Test.csproj", "{CC8D58EE-4D1B-4846-97CD-6B06702ACED7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
