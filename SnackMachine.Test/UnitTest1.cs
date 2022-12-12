@@ -6,28 +6,17 @@ namespace SnackMachine.Test
     public class MoneyTest
     {
         [Fact]
-        public void Equal_False_ReturnCorrectValue()
+        public void Diff_2Dollars6Cents_ReturnCorrectValue()
         {
             //Arrage
-            Money money1= new Money (0, 0, 0, 5, 0, 0);
-            Money money2 = new Money(0, 0, 0, 6, 0, 0);
-            bool equal = money1 == money2;
-            var expected = false;
+            Money money1= new Money (0, 0, 0, 0, 1, 0);
+            Money money2 = new Money(6, 0, 0, 2, 1, 0);
+            var diff = money2 - money1;
+            var expected = 2.06m;
             //Assert 
-            Assert.Equal(expected,equal);
+            Assert.Equal(expected,diff.Amount,2);
 
         }
-        [Fact]
-        public void Equal_True_ReturnCorrectValue()
-        {
-            //Arrage
-            Money money1 = new Money(0, 0, 0, 5, 0, 0);
-            Money money2 = new Money(0, 0, 0, 5, 0, 0);
-            bool equal = money1 == money2;
-            var expected = true;
-            //Assert 
-            Assert.Equal(expected, equal);
-
-        }
+        
     }
 }
