@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30711.63
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnackMachineLogic", "SnackMachine.Logic\SnackMachineLogic.csproj", "{AF8A6D06-E1DF-4112-9CEA-4195F54CA89C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{CCF7BCEB-2EC5-491A-95E3-A2005771EEAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{AF8A6D06-E1DF-4112-9CEA-4195F54CA89C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF8A6D06-E1DF-4112-9CEA-4195F54CA89C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF8A6D06-E1DF-4112-9CEA-4195F54CA89C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCF7BCEB-2EC5-491A-95E3-A2005771EEAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF7BCEB-2EC5-491A-95E3-A2005771EEAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF7BCEB-2EC5-491A-95E3-A2005771EEAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF7BCEB-2EC5-491A-95E3-A2005771EEAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
